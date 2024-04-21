@@ -5,104 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/294c93380c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <h1>LEARN HOW TO TREAT PTSD</h1>
     <ul class="nav">
         <li class="navli"><a href="index.html">Home</a></li>
         <li class="navli"><a href="about.html" class="active">About</a></li>
         <li class="navli"><a href="purchase.html">Purchase</a></li>
-        <li class="navli"><a href="signup.html">Sign Up</a></li>
-    </ul class="cardsul">
+        <li class="navli"><a href="signup.html">Sign Up / Log in</a></li>
+    </ul>
     <div class="parent">
-        <div class="div1 card" >
-            <div class="header">
-                    <span class="title">Beginner</span>
-                    <span class="price">$199.99</span>
-                </div>
-                <p class="desc">Beginner Level Course</p>
-                <ul class="lists">
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Basic Counseling Techniques & Principles</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Brief Coverage on PTSD Counseling</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span><b>Certificate upon Completion</b></span>
-                    </li>
-                </ul>
-                <button type="button" class="action" onclick="window.location.href='purchase.html'">Purchase</button>
+        <div class="div1">
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide you with the best counseling courses that will help you become a better counselor. </p>
+        </div>
+        <div class="div2">
+            <h2>Our Vision</h2>
+            <p>Our vision is to provide you with the best counseling courses that will help you become a better counselor. </p>
         </div>
 
-        <div class="div2 card" >
-            <div class="header">
-                    <span class="title">Intermediate</span>
-                    <span class="price">$299.99</span>
-                </div>
-                <p class="desc">Intermediate Level Course</p>
-                <ul class="lists">
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Intermediate Level Techniques & Principles</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Thorough Understanding of PTSD Counseling</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span><b>Certificate upon Completion</b></span>
-                    </li>
-                </ul>
-                <button type="button" class="action" onclick="window.location.href='purchase.html'">Purchase</button>
-        </div>
+    <style>
+        .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
 
-        <div class="div3 card" >
-            <div class="header">
-                    <span class="title">Advanced</span>
-                    <span class="price">$399.99</span>
-                </div>
-                <p class="desc">Advanced Level Course</p>
-                <ul class="lists">
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Advanced Techniques & Principles</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span>Deep Coverage on PTSD Counseling</span>
-                    </li>
-                    <li class="list">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                        </svg>
-                        <span><b>Certificate upon Completion</b></span>
-                    </li>
-                </ul>
-                <button type="button" class="action" onclick="window.location.href='purchase.html'">Purchase</button>
-        </div>
-    </div>
+        .div1 { grid-area: 1 / 1 / 2 / 6; }
+        .div2 { grid-area: 3 / 3 / 5 / 4; }
+
+        p {
+            font-size: 1.5em;
+            text-align: center;
+        }
+    </style>
 </body>
 
 </html>
